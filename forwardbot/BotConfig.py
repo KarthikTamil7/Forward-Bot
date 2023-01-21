@@ -3,7 +3,7 @@ class Config(object):
     API_ID = environ.get("API_ID", None)
     API_HASH = environ.get("API_HASH", None)
     BOT_TOKEN = environ.get("BOT_TOKEN", None)
-    STRING_SESSION = environ.get("STRING", None)
+    STRING_SESSION = environ.get("STRING", "BQBEfsiIKyiEL0vZYfgCzXKVjmv8xhHtu6PUJpold8o6f5veO-XAKoCLXN3bVHvUGkCv9NgwTrWrnc3lZRwNdREsinh9wOZnc9wQOsllTUpvE2Hzbax8rhkji4Roqsaziw-sDdDfGft42t0DbGVlSe7lf_WOxbrFPlfyJ94AMiGpEYBIwT_VKT_QYrDl8IEwlYAuqgKoQVkhNeB0WFIKBYFAt42jVDfeZAZpNMnyQO9F5LVQCsUemf42czKfovAujA6xiIRr9c39y-nsWxxvO6arsCPatQ3uiRXqgvq6rwIcaNqnPBizNRyAAEPnAoLST82Jg3EC5Awet7oH800X8_5dUvF4PAA")
     SUDO_USERS = environ.get("SUDO_USERS", None)
     COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "^/")
     HELP_MSG = """
